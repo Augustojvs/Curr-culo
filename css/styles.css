@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+}
+
+body {
+  background: #151515 url("../images/bkg.png") 0 0;
+  color: #eaeaea;
+  font-size: 16px;
+  line-height: 1.5;
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal,
+    monospace;
+}
+
+header {
+  width: 100%;
+  background-image: url("../images/tecnologia.jpg");
+  background-size: cover;
+  background-position: center top;
+  border-bottom: 1px dashed #b5e853;
+  margin: 0 0 40px 0;
+  display: flex;
+  align-content: center;
+}
+
+.avatar {
+  margin: 15px;
+  border-radius: 50%;
+  border: 2px solid #63c0f5;
+}
+
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0 0 20px;
+  color: #b5e853;
+}
+
+ul {
+  padding: 0 0 20px 50px;
+}
+
+li {
+  line-height: 1.4;
+  list-style-image: url("../images/bullet.png");
+}
+
+dd,
+p {
+  padding-bottom: 20px;
+}
+
+dt {
+  font-style: italic;
+  font-weight: bold;
+}
+
+a {
+  color: #63c0f5;
+  text-shadow: 0 0 5px rgba(104, 182, 255, 0.5);
+}
